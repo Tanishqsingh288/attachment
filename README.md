@@ -1,3 +1,19 @@
+# 🎫 Ticket Attachments Module - Cloud Support System
+
+This document explains the design, flow, and considerations for implementing the **ticket attachment feature** in the Cloud Support/Ticketing System.
+
+---
+
+## 📦 Overview
+Each support ticket can have **multiple attachments** (max 25MB each).  
+Attachments are stored in **cloud storage (AWS S3 / Azure Blob)** for scalability and reliability.  
+The system maintains **metadata** in the database and stores the **actual file** in cloud storage.
+
+---
+
+### 🗂 Storage Strategy
+- **Cloud Storage**: S3 (AWS) or Blob (Azure)
+- **DB Metadata Table**: 
 
 ### 🔗 File Access
 Files are **retrieved via their stored URL** (`storage_url` field).  
