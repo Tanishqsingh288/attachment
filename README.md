@@ -78,3 +78,24 @@ For secure downloads, **signed URLs** should be generated with short expiry time
 
 ## 🔄 Workflow Diagram
 
+---
+
+## 🚨 Future Enhancements
+- Virus scanning integration
+- Image compression before upload
+- File versioning and rollback
+- Attachment tagging (e.g., "logs", "screenshots")
+- Search attachments by keyword or file name
+
+---
+
+## ✅ Summary
+- Cloud storage is **scalable and secure** for attachments.  
+- Database stores **metadata** for easy management.  
+- Security and permissions are **crucial** to protect data.  
+- Notifications keep users **informed of new or deleted files**.  
+- Feature is **modular** and can evolve with future needs.
+
+---
+
+
