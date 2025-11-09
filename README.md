@@ -49,10 +49,10 @@ For secure downloads, **signed URLs** should be generated with short expiry time
 | **List Attachments (by Ticket)** | Get all attachments for a ticket | All ticket participants | No | Uses `findByTicketId` |
 | **List Attachments (by User)** | (Optional) Get all attachments uploaded by a user | Admin / user | No | For analytics or management |
 | **List Attachments (by File Type)** | (Optional) Filter attachments by type | Admin only | No | For advanced filtering |
-| **Bulk Upload** | Upload multiple files in one request | Any ticket participant | No | Validates each file individually |
+| **Bulk Upload** | Upload multiple files in one request | Any ticket participant | Yes | Validates each file individually |
 | **Download Attachment** | Secure download of file | Authorized users | No | Signed URL or direct HTTPS |
 | **Preview / Thumbnail** | Generate preview for images or PDFs | UI enhancement | No | Optional feature |
-| **Retention Policy** | Automatically delete old files after X days | System cleanup task | No | Configurable per project |
+| **Retention Policy** | Automatically delete old files after X days | System cleanup task | Yes | Configurable per project |
 | **Audit Trail** | Track who uploaded/deleted each file | All operations | Logged | Stored in audit table or logs |
 
 ---
