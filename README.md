@@ -1,4 +1,4 @@
-# 🎫 Ticket Attachments Module - Cloud Support System
+# 🎫 Ticket Attachments Module - Support System
 
 This document explains the design, flow, and considerations for implementing the **ticket attachment feature** in the Cloud Support/Ticketing System.
 
